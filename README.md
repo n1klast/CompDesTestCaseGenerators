@@ -9,9 +9,8 @@ Assignment 1: It prints the resulting expression after the optimization (using y
                                                         -more/less test cases  
                                                         -stop the .txt file creation
                                                         -only specific task 
-                                                        -(not recommended) change depths for the difficulties  
-                     In providedtests.ml:
-                     2. copy the first line (let testctxt...) above the provided_tests function 
-                     3. copy the rest (from " Test ("Testcases++"..." on) into the provided_tests function underneath the already existing test  
+                                                        -(not recommended) change depths for the difficulties 
+                     2. copy the first line (let testctxt...) above the provided_tests function (located In providedtests.ml)
+                     3. copy the rest (from " Test ("Testcases++"..." on) into the provided_tests function underneath the already existing "Test ... ])" you may need to add ; after )
                      4. Run 
 </pre>
