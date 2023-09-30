@@ -1,6 +1,8 @@
 import random
 from pathlib import Path
 
+
+
 #--------------------------------------------------------------------------------------------------------------------------------#
 # Program Arguments #
 difficultyy   = 1                  # 1 easy, 2 middle, 3 hard 
@@ -10,6 +12,11 @@ write_to_file = True               # Only want command line output? set False
 tasks         = [True, True, True] # If you want to get these Tests set True else False
                                    # [optimized exp as string, optimized result correct, compiler correct]
 #--------------------------------------------------------------------------------------------------------------------------------#
+
+
+
+
+
 
 
 def custom_print(lst):
