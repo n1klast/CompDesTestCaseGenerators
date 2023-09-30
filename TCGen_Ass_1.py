@@ -6,7 +6,7 @@ from pathlib import Path
 
 #--------------------------------------------------------------------------------------------------------------------------------#
 # Program Arguments #
-difficultyy   = 1                  # 1 easy, 2 middle, 3 hard 
+difficultyy   = 3                  # 1 easy, 2 middle, 3 hard 
 num_cases     = 5                  # Number of testcases
 maximum_depth = [2, 3, 5]          # Maximum depth of exp for each difficulty, default: [2, 3, 5]
 write_to_file = True               # Only want command line output? set False
@@ -126,9 +126,10 @@ custom_print (varlist)
 
 #Test Case printing
 if write_to_file:
-    f.write('Test (\"Testcases++\", [\\n \n')
+    f.write('Test (\"Testcases++\", [ \n')
 print ("Test (\"Testcases++\", [")
 
+num_cases = num_cases+1
 for i in range (1, num_cases):
     expression, val = generate_expression (difficultyy, max_depth, 1)
     if tasks[0]:
