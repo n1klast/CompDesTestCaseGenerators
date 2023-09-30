@@ -1,15 +1,16 @@
 import random
-import os
 from pathlib import Path
 
+#--------------------------------------------------------------------------------------------------------------------------------#
+# Program Arguments #
+difficultyy   = 1                  # 1 easy, 2 middle, 3 hard 
+num_cases     = 5                  # Number of testcases
+maximum_depth = [2, 3, 5]          # Maximum depth of exp for each difficulty, default: [2, 3, 5]
+write_to_file = True               # Only want command line output? set False
+tasks         = [True, True, True] # If you want to get these Tests set True else False
+                                   # [optimized exp as string, optimized result correct, compiler correct]
+#--------------------------------------------------------------------------------------------------------------------------------#
 
-difficultyy = 1             # 1 easy, 2 middle, 3 hard 
-num_cases = 5             # number of testcases
-maximum_depth = [2, 3, 5]   # maximum depth of exp for each difficulty, default: [2, 3, 5]
-write_to_file = True         # Only want command line output? set False
-
-tasks = [True, True, True]  #if you want to get these Tests set True else False
-                            #[optimized exp as string, optimized result correct, compiler correct]
 
 def custom_print(lst):
     formatted_list = []
